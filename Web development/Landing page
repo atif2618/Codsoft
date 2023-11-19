@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu Classes - The best Classes in the City</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">Alliens class</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The Topper classes in the India</h1>
+                        <p class=" text-center">A Premier Coaching Institute for the preparation of JEE (Main+Advanced), JEE (Main),
+                             Pre-Medical (NEET-UG), Pre-Nurture & Career Foundation (Class VI to X, NTSE & Olympiads) and 
+                             Commerce Education (11th, 12th, CA & CS). The Institute is well regarded for the high quality
+                              entrance exam preparation and produces best results year after year. At ALLEN , We focus on 
+                              building a strong foundation of knowledge and concepts in students for their success and provide 
+                              an excellent platform for the preparation of competitive exams and board level education. The best academic 
+                              support and personal care which we provide to the students, helps them meet their career goals and objectives.
+                               The core values of Determination, Honesty, Authenticity, Integrity, Devotion, Humanism, Holistic Learning, Social Ethics, and
+                                concern for society & environment are all closely interwoven into the fiber of our academic programs. Our highly qualified and most experienced faculties are dedicated and committed to student’s complete success and provide assistive surroundings to contribute to their social, cultural, academic and all-round development. To our students, we impart value-based career education, abundant resources, and individual attention. To the parents, we have a responsibility to nurture ethical and responsible career                            </p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="class" src="https://imgs.search.brave.com/k_iWZ1_a1lCvOjm5mmvawOKZSmlw7WAnmnX9LnA9Lks/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9i/dXNpbmVzcy1leGVj/dXRpdmVzLWludGVy/YWN0aW5nLXdpdGgt/ZWFjaC1vdGhlcl8x/MTcwLTE3ODguanBn/P3NpemU9NjI2JmV4/dD1qcGc"alt="" width="450cm">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Allien Coaching class is already well known in City for its educational courses to qualify for both IIT JEE mains and Advance. We provide regular classroom courses to the students for class 10th to class 12th and even after that. We also provide distance learning courses for the students who are not able to attend regular classes and wish to add the academic advantage of Allien in their preparations. The Allen Coaching class is the Best Coaching in City which also provides Foundation courses to the students of Entrance exam , in which we provide them daily exercises and questions to increase their speed and to develop their skills.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Entrance Exam</h2>
+                        <ul>
+                            <li class="highlighted">₹91,999/year</li>
+                            <li>Notes</li>
+                            <li>Extra Lecture</li>
+                            <li>Paper</li>
+                            <li>Free doubt timing</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Class 11th</h2>
+                        <ul>
+                            <li class="highlighted">₹70,000/year</li>
+                            <li>Notes</li>
+                            <li>Extra Lecture</li>
+                            <li>Paper</li>
+                            <li>Free doubt timing</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Class 12th</h2>
+                        <ul>
+                            <li class="highlighted">₹88,000/month</li>
+                            <li>Notes</li>
+                            <li>Extra Lecture</li>
+                            <li>Paper</li>
+                            <li>Free doubt timing</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Free Notes</th>
+                          <th>Paper</th>
+                          <th>Free doubt Session</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">CAT</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>No</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">CUET</th>
+                          <td>No</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">UPSC</th>
+                          <td>Yes</svg></td>
+                          <td>No</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">MPSC</th>
+                          <td>Yes</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">MHT-CET</th>
+                          <td>Yes</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">IIT-JEE</th>
+                          <td>No</td>
+                          <td>No</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; AllienCoachingclass.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
